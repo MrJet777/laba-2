@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <main>
+        <form class="form">
+        <label for="name">Name:</label>
+        <br>
+        <br>
+        <input type="text" id="name" name="name" placeholder="Your name.." required>
+        <br>
+        <br>
+        <label for="Password">Password:</label>
+        <br>
+        <br>
+        <input type="email" id="email" name="email" placeholder="Your password.." required>
+        <br>
+        <br>
+        <label for="tel">tel:</label>
+        <br>
+        <br>
+        <input type="tel" id="tel" name="tel" placeholder="Your tel number.." required>
+        <br>
+        <br>
+            <div class="radio">
+            <span>Gender</span>
+            <br>
+            <label>
+              <input type="radio" name="sex" value="Male">Male
+              <div class="radio-control male"></div>
+            </label>
+            <label>
+              <input type="radio" name="sex" value="Female">Female
+              <div class="radio-control female"></div>
+              <br>
+              </label>
+              <label for="name">Meel:</label>
+              <br>
+              <input type="checkbox" id="scales" name="scales" checked />
+            <label for="scales">Pizza</label>
+            <input type="checkbox" id="horns" name="horns" />
+            <label for="horns">Salad</label>
+            <input type="checkbox" id="horns" name="horns" />
+            <label for="horns">Burger</label>
+            <br>
+            <br>
+            <label for="name">Quantity:</label>
+            <br>
+            <br>
+            <input type="text" id="name" name="name" placeholder="..." required>
+            <br>
+            <br>
+            <form action="handler.php">
+                <p>Favourite color:
+                    <br>
+                    <input type="color" name="bg" value="#ff0000">
+                </form>
+            <br>
+            <label for="name">About yourself:</label>
+              <br>
+            <p><textarea name="comment" id="comment" cols="48" rows="8"> </textarea>
+            </p>
+            Your photo:<br/>
+            <input name="send_f" type="file" size="30" maxlength="60" />
+            <p><input name="submit" type="submit" id="submit" value="Send"/>
+               <input name="submit" type="submit" id="submit" value="Clear"/>
+            </p>
+          </div>
+        </form>
+        <div>
+            
+          </div>
+    </main>
+    </body>
+</html>
